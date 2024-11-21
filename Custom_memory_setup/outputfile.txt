@@ -1,0 +1,115 @@
+Test 1 Passed: Allocated 8 bytes successfully.
+============== Memory snapshot ===============
+mem_list 0x4a8e040 slot_size 8 batch_count 1 free_slot_bitmap 0x4a8e0b0
+bitmap 0x4a8e0b0 size 1 bytes: 0111  1111  
+	 mem_batch 0x4a8e100 batch_mem 0x4a8e150
+==============================================
+Test 2 Passed: Allocated another 8 bytes successfully.
+============== Memory snapshot ===============
+mem_list 0x4a8e040 slot_size 8 batch_count 1 free_slot_bitmap 0x4a8e0b0
+bitmap 0x4a8e0b0 size 1 bytes: 0011  1111  
+	 mem_batch 0x4a8e100 batch_mem 0x4a8e150
+==============================================
+Test 3 Passed: Allocated 5 bytes (rounded to 8) successfully.
+============== Memory snapshot ===============
+mem_list 0x4a8e040 slot_size 8 batch_count 1 free_slot_bitmap 0x4a8e0b0
+bitmap 0x4a8e0b0 size 1 bytes: 0001  1111  
+	 mem_batch 0x4a8e100 batch_mem 0x4a8e150
+==============================================
+Test 4 Passed: Allocated 16 bytes successfully.
+============== Memory snapshot ===============
+mem_list 0x4a8f210 slot_size 16 batch_count 1 free_slot_bitmap 0x4a8f280
+bitmap 0x4a8f280 size 1 bytes: 0111  1111  
+	 mem_batch 0x4a8f2d0 batch_mem 0x4a8f320
+mem_list 0x4a8e040 slot_size 8 batch_count 1 free_slot_bitmap 0x4a8e0b0
+bitmap 0x4a8e0b0 size 1 bytes: 0001  1111  
+	 mem_batch 0x4a8e100 batch_mem 0x4a8e150
+==============================================
+Test 5 Passed: Allocated 10 bytes (rounded to 16) successfully.
+============== Memory snapshot ===============
+mem_list 0x4a8f210 slot_size 16 batch_count 1 free_slot_bitmap 0x4a8f280
+bitmap 0x4a8f280 size 1 bytes: 0011  1111  
+	 mem_batch 0x4a8f2d0 batch_mem 0x4a8f320
+mem_list 0x4a8e040 slot_size 8 batch_count 1 free_slot_bitmap 0x4a8e0b0
+bitmap 0x4a8e0b0 size 1 bytes: 0001  1111  
+	 mem_batch 0x4a8e100 batch_mem 0x4a8e150
+==============================================
+Test 6 Passed: Allocated 32 bytes successfully.
+============== Memory snapshot ===============
+mem_list 0x4a8f3e0 slot_size 32 batch_count 1 free_slot_bitmap 0x4a8f450
+bitmap 0x4a8f450 size 1 bytes: 0111  1111  
+	 mem_batch 0x4a8f4a0 batch_mem 0x4a8f4f0
+mem_list 0x4a8f210 slot_size 16 batch_count 1 free_slot_bitmap 0x4a8f280
+bitmap 0x4a8f280 size 1 bytes: 0011  1111  
+	 mem_batch 0x4a8f2d0 batch_mem 0x4a8f320
+mem_list 0x4a8e040 slot_size 8 batch_count 1 free_slot_bitmap 0x4a8e0b0
+bitmap 0x4a8e0b0 size 1 bytes: 0001  1111  
+	 mem_batch 0x4a8e100 batch_mem 0x4a8e150
+==============================================
+Test 7 Passed: Allocated 64 bytes successfully.
+============== Memory snapshot ===============
+mem_list 0x4a8f630 slot_size 64 batch_count 1 free_slot_bitmap 0x4a8f6a0
+bitmap 0x4a8f6a0 size 1 bytes: 0111  1111  
+	 mem_batch 0x4a8f6f0 batch_mem 0x4a8f740
+mem_list 0x4a8f3e0 slot_size 32 batch_count 1 free_slot_bitmap 0x4a8f450
+bitmap 0x4a8f450 size 1 bytes: 0111  1111  
+	 mem_batch 0x4a8f4a0 batch_mem 0x4a8f4f0
+mem_list 0x4a8f210 slot_size 16 batch_count 1 free_slot_bitmap 0x4a8f280
+bitmap 0x4a8f280 size 1 bytes: 0011  1111  
+	 mem_batch 0x4a8f2d0 batch_mem 0x4a8f320
+mem_list 0x4a8e040 slot_size 8 batch_count 1 free_slot_bitmap 0x4a8e0b0
+bitmap 0x4a8e0b0 size 1 bytes: 0001  1111  
+	 mem_batch 0x4a8e100 batch_mem 0x4a8e150
+==============================================
+Test 8 Passed: Freed 8 bytes successfully.
+============== Memory snapshot ===============
+mem_list 0x4a8f630 slot_size 64 batch_count 1 free_slot_bitmap 0x4a8f6a0
+bitmap 0x4a8f6a0 size 1 bytes: 0111  1111  
+	 mem_batch 0x4a8f6f0 batch_mem 0x4a8f740
+mem_list 0x4a8f3e0 slot_size 32 batch_count 1 free_slot_bitmap 0x4a8f450
+bitmap 0x4a8f450 size 1 bytes: 0111  1111  
+	 mem_batch 0x4a8f4a0 batch_mem 0x4a8f4f0
+mem_list 0x4a8f210 slot_size 16 batch_count 1 free_slot_bitmap 0x4a8f280
+bitmap 0x4a8f280 size 1 bytes: 0011  1111  
+	 mem_batch 0x4a8f2d0 batch_mem 0x4a8f320
+mem_list 0x4a8e040 slot_size 8 batch_count 1 free_slot_bitmap 0x4a8e0b0
+bitmap 0x4a8e0b0 size 1 bytes: 1001  1111  
+	 mem_batch 0x4a8e100 batch_mem 0x4a8e150
+==============================================
+Test 9 Passed: Freed 16 bytes successfully.
+============== Memory snapshot ===============
+mem_list 0x4a8f630 slot_size 64 batch_count 1 free_slot_bitmap 0x4a8f6a0
+bitmap 0x4a8f6a0 size 1 bytes: 0111  1111  
+	 mem_batch 0x4a8f6f0 batch_mem 0x4a8f740
+mem_list 0x4a8f3e0 slot_size 32 batch_count 1 free_slot_bitmap 0x4a8f450
+bitmap 0x4a8f450 size 1 bytes: 0111  1111  
+	 mem_batch 0x4a8f4a0 batch_mem 0x4a8f4f0
+mem_list 0x4a8f210 slot_size 16 batch_count 1 free_slot_bitmap 0x4a8f280
+bitmap 0x4a8f280 size 1 bytes: 1011  1111  
+	 mem_batch 0x4a8f2d0 batch_mem 0x4a8f320
+mem_list 0x4a8e040 slot_size 8 batch_count 1 free_slot_bitmap 0x4a8e0b0
+bitmap 0x4a8e0b0 size 1 bytes: 1001  1111  
+	 mem_batch 0x4a8e100 batch_mem 0x4a8e150
+==============================================
+Error: Double free attempt.
+Error:ptr is outside of memory managed by the manager
+Test 10: Attempted double free (should handle gracefully).
+Error:ptr is outside of memory managed by the manager
+Test 11: Attempted to free a pointer not managed (should handle gracefully).
+
+
+==========================Memory_Leak_page=======================================================
+==4035== Memcheck, a memory error detector
+==4035== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4035== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==4035== Command: ./test1
+==4035== 
+==4035== 
+==4035== HEAP SUMMARY:
+==4035==     in use at exit: 0 bytes in 0 blocks
+==4035==   total heap usage: 17 allocs, 17 frees, 5,284 bytes allocated
+==4035== 
+==4035== All heap blocks were freed -- no leaks are possible
+==4035== 
+==4035== For lists of detected and suppressed errors, rerun with: -s
+==4035== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
