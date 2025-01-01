@@ -4,7 +4,19 @@ This project implements a custom memory management system in C, designed to impr
 
 ## Project Structure
 
-Custom_memory_management/ ├── Makefile # Build configuration for the project ├── README.md # Documentation for the project ├── bitmap.c # Implementation for bitmap-based memory tracking ├── common.h # Common macros and utility functions ├── interposition.h # Header for function interpositioning ├── memory_manager.c # Core memory management implementation ├── memory_manager.h # Header file for memory management functions ├── outputfile.txt # Output logs or results from the program ├── test1 # Binary or test file ├── test_main.c # Main test file ├── testing.c # Additional testing functionality
+
+.
+├── Makefile              # Build configuration for the project
+├── README.md             # Documentation for the project
+├── bitmap.c              # Implementation for bitmap-based memory tracking
+├── common.h              # Common macros and utility functions
+├── interposition.h       # Header for function interpositioning
+├── memory_manager.c      # Core memory management implementation
+├── memory_manager.h      # Header file for memory management functions
+├── outputfile.txt        # Output logs or results from the program
+├── test1                 # Binary or test file
+├── test_main.c           # Main test file
+├── testing.c             # Additional testing functionality
 
 
 
