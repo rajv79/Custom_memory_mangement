@@ -3,7 +3,7 @@
 This project implements a custom memory management system in C, designed to improve memory allocation, deallocation, and tracking for enhanced performance and debugging capabilities.
 
 ## Project Structure
-.
+
 ├── Makefile              # Build configuration for the project
 ├── README.md             # Documentation for the project
 ├── bitmap.c              # Implementation for bitmap-based memory tracking
