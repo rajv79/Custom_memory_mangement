@@ -21,16 +21,15 @@ This project implements a custom memory management system in C, designed to impr
 
 ## Features
 
-- **Custom Memory Management**: Provides a custom memory allocator that overrides standard `malloc` and `free` functions for better control.
+- **Custom Memory Management**: Provides a custom memory allocator that works similar to small bin condition in the malloc logic
 - **Bitmap-based Tracking**: Utilizes a bitmap to efficiently manage memory blocks.
-- **Interpositioning**: Replaces default memory management functions using function interposition techniques.
 - **Logging and Debugging**: Outputs memory usage details to `outputfile.txt` for debugging purposes.
 - **Test Suite**: Includes test cases to validate functionality and performance.
 
 ## File Descriptions
 
 - **`bitmap.c`**: Contains functions for managing memory allocation and deallocation using a bitmap data structure.
-- **`memory_manager.c`**: Implements the core functionality of the custom memory allocator, including replacements for `malloc`, `free`, and `realloc`.
+- **`memory_manager.c`**: Implements the core functionality of the custom memory allocator
 - **`interposition.h`**: Facilitates overriding standard memory allocation functions using linker or runtime interposition techniques.
 - **`test_main.c`**: Includes test cases to validate the functionality of the memory manager.
 - **`testing.c`**: Provides additional tests and utilities for stress-testing the memory manager.
